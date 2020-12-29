@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LoginPage</string>
+    <string name="tinder">tinder</string>
+    <string name="privacy_text">By clicking Log In, you agree with our Terms.</string>
+    <string name="Learn_text">Learn how we process your data in our Privacy</string>
+    <string name="policy_text">Policy and Cookies Policy.</string>
+    <string name="log_in_with_google">log in with google</string>
+    <string name="log_in_with_phone_number">log in with phone number</string>
+    <string name="log_in_with_facebook">log in with facebook</string>
+    <string name="trouble_loggin_in">Trouble Logging in?</string>
+</resources>
