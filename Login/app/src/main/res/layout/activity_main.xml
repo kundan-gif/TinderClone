@@ -9,17 +9,17 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/tvTinder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/tvTinder"
         android:layout_gravity="center"
         android:layout_marginTop="@dimen/dp_100"
         android:drawableStart="@drawable/ic_tinder"
         android:drawablePadding="@dimen/dp_5"
-        android:textSize="@dimen/sp_55"
         android:fontFamily="@font/varela_round"
         android:text="@string/tinder"
         android:textColor="@color/white"
+        android:textSize="@dimen/sp_55"
         android:textStyle="bold" />
     <TextView
         android:layout_width="match_parent"

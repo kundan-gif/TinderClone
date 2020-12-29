@@ -6,4 +6,64 @@
     android:layout_height="match_parent"
     tools:context=".homepage">
 
+
+    <LinearLayout
+        android:id="@+id/row1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <ImageButton
+            android:id="@+id/button1"
+            android:layout_width="67dp"
+            android:layout_height="41dp"
+            android:layout_margin="@dimen/dp_20"
+            android:layout_weight="1"
+            android:background="@drawable/ic_tinder2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/button2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="@dimen/dp_20"
+            android:layout_weight="1"
+            android:background="@drawable/ic_shining"
+            app:layout_constraintEnd_toStartOf="@+id/button3"
+            app:layout_constraintStart_toEndOf="@+id/button1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/button3"
+            android:layout_width="54dp"
+            android:layout_height="41dp"
+            android:layout_margin="@dimen/dp_20"
+            android:layout_weight="1"
+            android:background="@drawable/ic_conversation"
+            app:layout_constraintEnd_toStartOf="@+id/button4"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/button4"
+            android:layout_width="66dp"
+            android:layout_height="58dp"
+            android:layout_margin="@dimen/dp_20"
+            android:layout_weight="1"
+            android:background="@drawable/ic_baseline_person_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/row1"
+        android:src="@drawable/lady"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

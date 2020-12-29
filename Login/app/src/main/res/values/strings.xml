@@ -8,4 +8,6 @@
     <string name="log_in_with_phone_number">log in with phone number</string>
     <string name="log_in_with_facebook">log in with facebook</string>
     <string name="trouble_loggin_in">Trouble Logging in?</string>
+    <string name="likes">Likes</string>
+    <string name="top_picks">Top Picks</string>
 </resources>
