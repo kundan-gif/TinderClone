@@ -7,59 +7,69 @@
     tools:context=".homepage">
 
 
-    <LinearLayout
-        android:id="@+id/row1"
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="0dp">
-
-        <ImageButton
-            android:id="@+id/button1"
-            android:layout_width="wrap_content"
+        android:id="@+id/cardView1"
+        android:elevation="@dimen/dp_20"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/row1"
+            android:layout_width="match_parent"
+            android:weightSum="4"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/dp_20"
-            android:layout_weight="1"
-            android:background="@drawable/ic_tinder2"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            >
 
-        <ImageButton
-            android:id="@+id/likes"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/dp_20"
-            android:layout_weight="1"
-            android:background="@drawable/ic_shining"
-            app:layout_constraintEnd_toStartOf="@+id/button3"
-            app:layout_constraintStart_toEndOf="@+id/button1"
-            app:layout_constraintTop_toTopOf="parent" />
+            <ImageButton
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="@dimen/dp_20"
+                android:layout_marginEnd="@dimen/dp_20"
+                android:layout_weight="1"
+                android:background="@drawable/tinderhome"
+                />
 
-        <ImageButton
-            android:id="@+id/messges"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/dp_20"
-            android:layout_weight="1"
-            android:background="@drawable/ic_chat"
-            app:layout_constraintEnd_toStartOf="@+id/button4"
-            app:layout_constraintTop_toTopOf="parent" />
+            <ImageButton
+                android:id="@+id/likes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="@dimen/dp_20"
+                android:layout_weight="1"
+                android:background="@drawable/ic_shining"
+                />
 
-        <ImageButton
-            android:id="@+id/account"
-            android:layout_width="66dp"
-            android:layout_height="58dp"
-            android:layout_margin="@dimen/dp_20"
-            android:layout_weight="1"
-            android:background="@drawable/ic_baseline_person_24"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-    </LinearLayout>
+            <ImageButton
+                android:id="@+id/messages"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="@dimen/dp_20"
+                android:layout_marginEnd="@dimen/dp_20"
+                android:layout_weight="1"
+                android:background="@drawable/ic_chat"
+                />
+
+            <ImageButton
+                android:id="@+id/account"
+                android:layout_width="66dp"
+                android:layout_height="58dp"
+                android:layout_marginEnd="@dimen/dp_20"
+                android:layout_weight="1"
+                android:background="@drawable/ic_baseline_person_24"
+                />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/row1"
+        app:layout_constraintTop_toBottomOf="@+id/cardView1"
         android:src="@drawable/lady"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         />
