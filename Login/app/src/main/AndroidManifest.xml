@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginPage">
-        <activity android:name=".accountpage"></activity>
+        <activity android:name=".wlcmtotinder"></activity>
+        <activity android:name=".GoogleLogInPage" />
+        <activity android:name=".FacebookLogin" />
+        <activity android:name=".MobileNumberPage" />
+        <activity android:name=".accountpage" />
         <activity android:name=".messegepage" />
         <activity android:name=".likespage" />
         <activity android:name=".homepage" />
