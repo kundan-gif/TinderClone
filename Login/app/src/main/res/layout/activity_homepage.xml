@@ -64,13 +64,161 @@
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/cardView1"
-        android:src="@drawable/lady"
 
-        app:layout_constraintBottom_toBottomOf="parent"
+
+    <HorizontalScrollView
+        android:id="@+id/imgScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/cardView1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        app:cardCornerRadius="10dp"
+                        android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/imgLady"
+                        android:layout_width="360dp"
+                        android:layout_height="550dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/lady2" />
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        app:cardCornerRadius="10dp"
+                        android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/img3"
+                        android:layout_width="360dp"
+                        android:layout_height="550dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/rashmi1" />
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        app:cardCornerRadius="10dp"
+                        android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/img2"
+                        android:layout_width="360dp"
+                        android:layout_height="550dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img2" />
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        app:cardCornerRadius="10dp"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/img4"
+                            android:layout_width="360dp"
+                            android:layout_height="550dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img6" />
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        app:cardCornerRadius="10dp"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/img5"
+                            android:layout_width="360dp"
+                            android:layout_height="550dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/rashmi2" />
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+
+
+
+
+    </HorizontalScrollView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        app:cardCornerRadius="30dp"
+        android:id="@+id/cardViewCircle1"
+        android:elevation="@dimen/dp_20"
+        android:layout_margin="@dimen/dp_20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgScrollView"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:background="@drawable/ic_refreshing"
+            android:layout_height="wrap_content"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        app:cardCornerRadius="30dp"
+        android:elevation="@dimen/dp_20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_margin="@dimen/dp_20"
+        android:id="@+id/cardViewCircle2"
+        app:layout_constraintTop_toBottomOf="@id/imgScrollView"
+        app:layout_constraintStart_toEndOf="@+id/cardViewCircle1"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:background="@drawable/ic_cross"
+            android:layout_height="wrap_content"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        app:cardCornerRadius="30dp"
+        android:elevation="@dimen/dp_20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/cardViewCircle3"
+        android:layout_margin="@dimen/dp_20"
+        app:layout_constraintTop_toBottomOf="@id/imgScrollView"
+        app:layout_constraintStart_toEndOf="@+id/cardViewCircle2"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:background="@drawable/ic_circlestar"
+            android:layout_height="wrap_content"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        app:cardCornerRadius="30dp"
+        android:elevation="@dimen/dp_20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/cardViewCircle4"
+        android:layout_margin="@dimen/dp_20"
+        app:layout_constraintTop_toBottomOf="@id/imgScrollView"
+        app:layout_constraintStart_toEndOf="@+id/cardViewCircle3"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:background="@drawable/ic_circleheart"
+            android:layout_height="wrap_content"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:elevation="@dimen/dp_20"
+        android:id="@+id/cardViewCircle5"
+        android:layout_margin="@dimen/dp_20"
+        app:layout_constraintTop_toBottomOf="@id/imgScrollView"
+        app:layout_constraintStart_toEndOf="@+id/cardViewCircle4"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:background="@drawable/ic_booster__1_"
+            android:layout_height="wrap_content"/>
+    </androidx.cardview.widget.CardView>
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
