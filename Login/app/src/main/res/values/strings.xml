@@ -10,6 +10,7 @@
     <string name="trouble_loggin_in">Trouble Logging in?</string>
     <string name="likes">Likes</string>
     <string name="top_picks">Top Picks</string>
+
     <string name="varsha_21">Varsha,21</string>
     <string name="text_photo">Photo Tip:A smile should get their attention</string>
     <string name="text_setting">SETTINGS</string>
@@ -22,4 +23,21 @@
     <string name="text_namee">Get Matches Faster</string>
     <string name="text_Boost">Boost your profile once a month</string>
     <string name="text_yoy">you are more likely to get a match</string>
+
+    <string name="_5_likes">5 Likes</string>
+    <string name="upgrade_to_gold_to_see">Upgrade to Gold to see</string>
+    <string name="people_who_have_already">people who have already</string>
+    <string name="liked_you">liked you.</string>
+    <string name="see_who_likes_you">see who likes you</string>
+    <string name="messages">Messages</string>
+    <string name="search_4_matches">Search 4 Matches</string>
+    <string name="new_matches">New Matches</string>
+    <string name="menere">Menere</string>
+    <string name="glen">Glen</string>
+    <string name="jeroen">Jeroen</string>
+    <string name="caitlin">Caitlin</string>
+    <string name="lauren">Lauren</string>
+    <string name="jem">Jem</string>
+
+
 </resources>

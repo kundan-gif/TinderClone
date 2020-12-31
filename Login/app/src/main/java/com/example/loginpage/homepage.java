@@ -23,7 +23,7 @@ public class homepage extends AppCompatActivity {
 
     private void initilizationAndListnerr() {
        btnlikes = findViewById(R.id.likes);
-       btnmessges = findViewById(R.id.messges);
+       btnmessges = findViewById(R.id.messages);
        btnaccount = findViewById(R.id.account);
        btnlikes.setOnClickListener(new View.OnClickListener() {
            @Override

@@ -5,5 +5,178 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".likespage">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/cardView1"
+        android:elevation="@dimen/dp_20"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/row1"
+            android:layout_width="match_parent"
+            android:weightSum="4"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageButton
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="@dimen/dp_20"
+                android:layout_marginEnd="@dimen/dp_20"
+                android:layout_weight="1"
+                android:background="@drawable/ic_tinder2"
+                />
+
+            <ImageButton
+                android:id="@+id/likes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="@dimen/dp_20"
+                android:layout_weight="1"
+                android:background="@drawable/shininglikes"
+                />
+
+            <ImageButton
+                android:id="@+id/messages"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="@dimen/dp_20"
+                android:layout_marginEnd="@dimen/dp_20"
+                android:layout_weight="1"
+                android:background="@drawable/ic_chat"
+                />
+
+            <ImageButton
+                android:id="@+id/account"
+                android:layout_width="66dp"
+                android:layout_height="58dp"
+                android:layout_marginEnd="@dimen/dp_20"
+                android:layout_weight="1"
+                android:background="@drawable/ic_baseline_person_24"
+                />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <View
+        android:layout_width="match_parent"
+        android:id="@+id/viewLine1"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/light_grey"
+        app:layout_constraintTop_toBottomOf="@id/cardView1"
+        android:layout_height="4dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/row2"
+        app:layout_constraintTop_toBottomOf="@+id/viewLine1"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/_5_likes"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:fontFamily="@font/varela_round"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/rect_grey"
+            android:textSize="@dimen/sp_18"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/top_picks"
+            android:textStyle="bold"
+            android:fontFamily="@font/varela_round"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textSize="@dimen/sp_18"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:id="@+id/viewLine2"
+        android:background="@color/light_grey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/row2"
+        android:layout_height="2dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvUpgrade"
+        app:layout_constraintTop_toBottomOf="@+id/viewLine2"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/upgrade_to_gold_to_see"
+        android:fontFamily="@font/varela_round"
+        android:layout_marginTop="@dimen/dp_20"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_18"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvPeople"
+        app:layout_constraintTop_toBottomOf="@+id/tvUpgrade"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/people_who_have_already"
+        android:fontFamily="@font/varela_round"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_18"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvLiked"
+        app:layout_constraintTop_toBottomOf="@+id/tvPeople"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/liked_you"
+        android:fontFamily="@font/varela_round"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_18"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/img1"
+        android:layout_marginTop="@dimen/dp_20" android:scaleType="fitXY"
+        app:layout_constraintTop_toBottomOf="@+id/tvLiked"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/likedimg"
+        android:layout_height="220dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/likedimg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img1" />
+
+    <Button
+        android:id="@+id/btnSeeLikes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/rect_round_golden"
+        android:text="@string/see_who_likes_you"
+        android:textSize="22sp"
+        android:fontFamily="@font/varela_round"
+        android:paddingStart="@dimen/dp_20"
+        android:paddingEnd="@dimen/dp_20"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
