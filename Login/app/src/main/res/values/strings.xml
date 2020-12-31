@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LoginPage</string>
+    <string name="app_name">TinderClone</string>
     <string name="tinder">tinder</string>
     <string name="privacy_text">By clicking Log In, you agree with our Terms.</string>
     <string name="Learn_text">Learn how we process your data in our Privacy</string>
@@ -38,6 +38,17 @@
     <string name="caitlin">Caitlin</string>
     <string name="lauren">Lauren</string>
     <string name="jem">Jem</string>
+    <string name="my_number_is">My number is...</string>
+    <string name="continue_1">CONTINUE</string>
+    <string name="enter_mobile_number">Enter Mobile number</string>
+    <string name="text_info">When you tap the continue, Tinder will send a text with verification code.Messege and rates may apply. The verified mobile number can be used to login</string>
+    <string name="text_info_highlighted">Learn what happens when your number changes</string>
+    <string name="enter_username_or_id">Enter Username or id</string>
+    <string name="enter_user_name">Enter Your User Name</string>
+    <string name="in_91">IN +91</string>
+    <string name="signin_to_contiue_gmail">Signin to contiue Gmail</string>
+    <string name="btnContnuegoogle">CONTINUE</string>
+    <string name="enter_user_name_Google">Enter User Name</string>
 
 
 </resources>
