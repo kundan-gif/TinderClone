@@ -53,7 +53,7 @@ public class homepage extends AppCompatActivity {
         btnaccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(homepage.this , accountpage.class);
+                Intent intent = new Intent(homepage.this,accountpage.class);
                 startActivity(intent);
             }
         });

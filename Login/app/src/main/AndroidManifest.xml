@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginPage">
 
+        <activity android:name=".accountpage"></activity>
+        <activity android:name=".TinderPlusAccount" />
+
+
         <activity android:name=".AddPhotosPage"></activity>
         <activity android:name=".PassionPage" />
         <activity android:name=".ScoolName" />
@@ -24,7 +28,7 @@
         <activity android:name=".GoogleLogInPage" />
         <activity android:name=".FacebookLogin" />
         <activity android:name=".MobileNumberPage" />
-        <activity android:name=".accountpage" />
+        <activity android:name=".accountpage"/>
         <activity android:name=".messegepage" />
         <activity android:name=".likespage" />
         <activity android:name=".homepage" />

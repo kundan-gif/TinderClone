@@ -1,12 +1,17 @@
 package com.example.loginpage;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+
+import color.WHITE;
+
+import static android.graphics.Color.*;
 
 public class likespage extends AppCompatActivity {
     private ImageButton mBtnHome;
@@ -14,7 +19,6 @@ public class likespage extends AppCompatActivity {
     private ImageButton mBtnMessage;
     private ImageButton mBtnAccount;
     private Button mBtnSeeLikes;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +32,9 @@ public class likespage extends AppCompatActivity {
         mBtnMessage=findViewById(R.id.messages);
         mBtnAccount=findViewById(R.id.account);
         mBtnSeeLikes=findViewById(R.id.btnSeeLikes);
+
+
+
 
         mBtnHome.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,3 +66,12 @@ public class likespage extends AppCompatActivity {
         });
     }
 }
+
+
+
+
+
+
+
+
+

@@ -6,6 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".accountpage">
 
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -266,32 +269,5 @@
         android:layout_marginRight="80dp"
         android:textColor="#FD5068"
         android:text="@string/text_my"/>
+ </androidx.constraintlayout.widget.ConstraintLayout>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </androidx.constraintlayout.widget.ConstraintLayout>

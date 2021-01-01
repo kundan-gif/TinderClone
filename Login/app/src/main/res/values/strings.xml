@@ -38,6 +38,33 @@
     <string name="caitlin">Caitlin</string>
     <string name="lauren">Lauren</string>
     <string name="jem">Jem</string>
+
+    <string name="text_swipe">Unlimited Right Swipes</string>
+    <string name="text_likees">Swipe as much as you like</string>
+    <string name="text_unlimited">Unlimited Likes</string>
+    <string name="text_give">Give me the ability to like as many people as i want</string>
+    <string name="text_skip">Skip TheLine</string>
+    <string name="text_profile">Be a top profile in your area for 30 minutes to get more matches</string>
+    <string name="text_more">Tinder Boost</string>
+    <string name="text_free">Give me 1 free Boost every month</string>
+    <string name="text_see">Control Who You See</string>
+    <string name="text_simple">it is simple now to choose the type of people you want to see on Tinder</string>
+    <string name="text_Balanced">Balanced Recommendations</string>
+    <string name="text_the">See the most relevant people to you (default setting)</string>
+    <string name="text_active">Recently Active</string>
+    <string name="text_most">See the most recently active people first</string>
+    <string name="text_plus">Get Tinder Plus</string>
+    <string name="text_who">Control Who Sees You</string>
+    <string name="text_certain">Only be shown to certain types of people on Tinder</string>
+    <string name="text_standard">Only be shown to certain types of people for individual recommendations</string>
+    <string name="text_Liked">Only People Liked</string>
+    <string name="text_right">Only people right swiped will see me</string>
+    <string name="text_information">Control Your Profile</string>
+    <string name="text_profiles">Make parts of your profile information invisible to other people</string>
+    <string name="text_indivisual">Make My Distance Invisible</string>
+    <string name="text_pasport">Passport To Any Location</string>
+    <string name="text_Go">Match with people all around the world Pairs.Los Angleles.Sydney.Go</string>
+
     <string name="my_number_is">My number is...</string>
     <string name="continue_1">CONTINUE</string>
     <string name="enter_mobile_number">Enter Mobile number</string>
@@ -91,6 +118,7 @@
     <string name="working_out">Working Out</string>
     <string name="vegetarian">Vegetarian</string>
     <string name="cricket">Cricket</string>
+
 
     <string name="reading_books1">Reading Books</string>
     <string name="swimming">Swimming</string>
