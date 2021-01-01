@@ -13,7 +13,7 @@ public class TinderPlus extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tinder_plus);
+        setContentView(R.layout.tinder_plus);
         mBtnContinue=findViewById(R.id.btnContinue);
         mBtnContinue.setOnClickListener(new View.OnClickListener() {
             @Override
