@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".My_firstname_intro_page">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_20"
+        android:layout_marginEnd="150dp"
+        android:layout_marginStart="50dp"
+        android:text="@string/i_am_a"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        />
+
+    <Button
+        android:id="@+id/btfenmale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/tinder_theme"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:background="@drawable/gendre_rect"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:text="@string/women"
+        android:textSize="15sp" />
+    <Button
+        android:id="@+id/btnmale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/tinder_theme"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:background="@drawable/gendre_rect"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:text="@string/men"
+        android:textSize="15sp" />
+    <Button
+        android:id="@+id/btnmore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/tinder_theme"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:background="@drawable/gendre_rect"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:text="@string/more"
+        android:textSize="15sp" />
+    <Button
+        android:id="@+id/btnGenderContunie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:background="@drawable/rect_bg"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:text="@string/conitnue_1"
+        android:textSize="15sp" />
+</LinearLayout>

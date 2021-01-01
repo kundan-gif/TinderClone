@@ -18,6 +18,7 @@ public class likespage extends AppCompatActivity {
     private ImageButton mBtnLikes;
     private ImageButton mBtnMessage;
     private ImageButton mBtnAccount;
+    private Button mBtnSeeLikes;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +31,7 @@ public class likespage extends AppCompatActivity {
         mBtnLikes=findViewById(R.id.likes);
         mBtnMessage=findViewById(R.id.messages);
         mBtnAccount=findViewById(R.id.account);
+        mBtnSeeLikes=findViewById(R.id.btnSeeLikes);
 
 
 
@@ -52,6 +54,13 @@ public class likespage extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(likespage.this,accountpage.class);
+                startActivity(intent);
+            }
+        });
+        mBtnSeeLikes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(likespage.this,TinderPlus.class);
                 startActivity(intent);
             }
         });

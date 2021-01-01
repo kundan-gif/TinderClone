@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".My_firstname_intro_page">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_20"
+        android:layout_marginEnd="150dp"
+        android:layout_marginStart="50dp"
+        android:text="@string/my_sexual_orientation_is"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+    <Button
+        android:id="@+id/btnmale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/tinder_theme"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:background="@drawable/gendre_rect"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:text="@string/straight"
+        android:textSize="15sp" />
+    <Button
+        android:id="@+id/btnfemale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/tinder_theme"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:background="@drawable/gendre_rect"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:text="@string/gay"
+        android:textSize="15sp" />
+    <Button
+        android:id="@+id/btnLesbian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/tinder_theme"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:background="@drawable/gendre_rect"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:text="@string/lesbian"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnBisexual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/tinder_theme"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:background="@drawable/gendre_rect"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:text="@string/more"
+        android:textSize="15sp" />
+    <Button
+        android:id="@+id/btnAsexual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/tinder_theme"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:background="@drawable/gendre_rect"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:text="@string/asexual"
+        android:textAllCaps="false"
+        android:textSize="15sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp_20"
+        android:text="@string/show_my_orientation_on_my_profile" />
+
+    <Button
+        android:id="@+id/btnSexContinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:background="@drawable/rect_bg"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:text="@string/conitnue_1"
+        android:textSize="15sp" />
+
+
+
+</LinearLayout>
