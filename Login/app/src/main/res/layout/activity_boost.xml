@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BoostActivity">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="@dimen/dp_20"
+        app:cardCornerRadius="@dimen/dp_20"
+        android:elevation="@dimen/dp_20"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/firstRelative"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/firstLinear"
+                android:background="#AE5BDE"
+                android:layout_height="wrap_content">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100dp"
+                    app:cardCornerRadius="50dp"
+                    android:layout_margin="@dimen/dp_20"
+                    android:layout_gravity="center"
+                    android:background="@color/white"
+                    android:layout_height="100dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="  UP TO 0.0x     VIEWS"
+                        android:textColor="#AE5BDE"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:textSize="@dimen/sp_18"
+                        android:layout_height="wrap_content"/>
+                </androidx.cardview.widget.CardView>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/out_of_boosts"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="@dimen/dp_20"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/varela_round"
+                    android:textStyle="bold"
+                    android:textSize="28sp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/be_a_top_profile_in_your_area_for_30_minutes_to_get_more_matches"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/varela_round"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:id="@+id/relativeTwo"
+                android:layout_below="@+id/firstLinear"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:src="@drawable/boostimg"
+                    android:scaleType="fitXY"
+                    android:layout_height="180dp"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/relativeTwo"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="match_parent"
+                    android:text="@string/boost_me"
+                    android:id="@+id/btnBoost"
+                    android:textColor="@color/white"
+                    android:layout_margin="@dimen/dp_20"
+                    android:padding="@dimen/dp_20"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/varela_round"
+                    android:background="@drawable/rect_boost_round"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/tvOr"
+                    android:layout_below="@id/btnBoost"
+                    android:textSize="@dimen/sp_18"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/or"
+                    android:layout_height="wrap_content"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:textAllCaps="false"
+                    android:text="GET TINDER PLUS
+                                        (1 free Boost every month)"
+                    android:layout_below="@+id/tvOr"
+                    android:id="@+id/btnGetTinderPlus"
+                    android:textColor="#3285DE"
+                    android:layout_margin="@dimen/dp_20"
+                    android:padding="@dimen/dp_20"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/varela_round"
+                    android:background="@drawable/rect_round"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
