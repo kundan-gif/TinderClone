@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginPage">
         <activity android:name=".accountpage"></activity>
+        <activity android:name=".TinderPlusAccount" />
         <activity android:name=".messegepage" />
         <activity android:name=".likespage" />
         <activity android:name=".homepage" />
