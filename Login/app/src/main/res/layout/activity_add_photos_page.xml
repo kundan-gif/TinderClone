@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPhotosPage">
+
+    <TextView
+        android:id="@+id/addPhotoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginStart="50dp"
+        android:text="@string/add_photoes"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:id="@+id/Instruction"
+        android:layout_below="@id/addPhotoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_atleast_two_photoes_to_continue"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginStart="@dimen/dp_40"
+        android:layout_marginEnd="@dimen/dp_40"
+        />
+    <ImageView
+        android:id="@+id/photoesAdd"
+        android:layout_below="@+id/Instruction"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="@dimen/dp_50"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="@dimen/dp_30"
+        android:layout_marginStart="@dimen/dp_30"
+        android:src="@drawable/photoes"
+
+        />
+    <Button
+        android:id="@+id/btnContinueAddPhotoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/photoesAdd"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="@dimen/dp_20"
+        android:gravity="center"
+        android:background="@drawable/rect_bg"
+        android:text="@string/conitnue_1"
+        android:padding="@dimen/dp_10"
+        android:textSize="15sp" />
+</RelativeLayout>

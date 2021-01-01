@@ -7,22 +7,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class GoogleLogInPage extends AppCompatActivity {
-    private Button btnGoogle;
+public class Birthday_Page extends AppCompatActivity {
+    private Button btnBirthContinue;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_google_log_in_page);
-        intilizationandListner();
+        setContentView(R.layout.activity_birthday__page);
+        initilizationAndListner();
     }
-
-    private void intilizationandListner() {
-        btnGoogle = findViewById(R.id.btnSignInGoogle);
-        btnGoogle.setOnClickListener(new View.OnClickListener() {
+    private void initilizationAndListner() {
+        btnBirthContinue = findViewById(R.id.buttonconti);
+        btnBirthContinue.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(GoogleLogInPage.this , wlcmtotinder.class);
+                Intent intent = new Intent(Birthday_Page.this , GenderPage_Intro.class);
                 startActivity(intent);
             }
         });

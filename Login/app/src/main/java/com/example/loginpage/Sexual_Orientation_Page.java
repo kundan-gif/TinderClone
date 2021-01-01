@@ -7,22 +7,22 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class wlcmtotinder extends AppCompatActivity {
-    private Button btnGoogleContinue;
+public class Sexual_Orientation_Page extends AppCompatActivity {
+    private Button btnSexContinueintro;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_wlcmtotinder);
+        setContentView(R.layout.activity_sexual__orientation__page);
         initilizationAndListner();
     }
 
     private void initilizationAndListner() {
-        btnGoogleContinue = findViewById(R.id.btnGoogle);
-        btnGoogleContinue.setOnClickListener(new View.OnClickListener() {
+        btnSexContinueintro = findViewById(R.id.btnSexContinue);
+        btnSexContinueintro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(wlcmtotinder.this , TermAndCondition.class);
+                Intent intent = new Intent(Sexual_Orientation_Page.this, ScoolName.class);
                 startActivity(intent);
             }
         });
