@@ -154,7 +154,8 @@
         android:layout_height="wrap_content">
         <ImageButton
             android:layout_width="wrap_content"
-            android:background="@drawable/ic_refreshing"
+            android:id="@+id/iBtnReload"
+            android:background="@drawable/ic_reload_svgrepo_com"
             android:layout_height="wrap_content"/>
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
@@ -169,6 +170,7 @@
         android:layout_height="wrap_content">
         <ImageButton
             android:layout_width="wrap_content"
+            android:id="@+id/imgBtnCross"
             android:background="@drawable/ic_cross"
             android:layout_height="wrap_content"/>
     </androidx.cardview.widget.CardView>
@@ -184,6 +186,7 @@
         android:layout_height="wrap_content">
         <ImageButton
             android:layout_width="wrap_content"
+            android:id="@+id/imgBtnStar"
             android:background="@drawable/ic_circlestar"
             android:layout_height="wrap_content"/>
     </androidx.cardview.widget.CardView>
@@ -199,6 +202,7 @@
         android:layout_height="wrap_content">
         <ImageButton
             android:layout_width="wrap_content"
+            android:id="@+id/imgBtnLike"
             android:background="@drawable/ic_circleheart"
             android:layout_height="wrap_content"/>
     </androidx.cardview.widget.CardView>
@@ -214,6 +218,7 @@
         android:layout_height="wrap_content">
         <ImageButton
             android:layout_width="wrap_content"
+            android:id="@+id/imgBtnBoost"
             android:background="@drawable/ic_booster__1_"
             android:layout_height="wrap_content"/>
     </androidx.cardview.widget.CardView>

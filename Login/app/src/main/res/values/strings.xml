@@ -46,7 +46,7 @@
     <string name="enter_username_or_id">Enter Username or id</string>
     <string name="enter_user_name">Enter Your User Name</string>
     <string name="in_91">IN +91</string>
-    <string name="signin_to_contiue_gmail">Signin to contiue Gmail</string>
+    <string name="signin_to_contiue_gmail">Sign in to continue to Gmail</string>
     <string name="btnContnuegoogle">CONTINUE</string>
     <string name="enter_user_name_Google">Enter User Name</string>
     <string name="log_in">LOG IN</string>
@@ -108,6 +108,20 @@
     <string name="or">Or</string>
     <string name="this_is_how_it_w">This is how it will appear on tinder and you will not be able to edit it</string>
     <string name="enter_your_name">Enter Your name</string>
-
+    <string name="enter_user_name_Google">Email or user name</string>
+    <string name="google">google</string>
+    <string name="get_tinder_plus">Get Tinder Plus</string>
+    <string name="unlimited_rewinds">Unlimited Rewinds</string>
+    <string name="go_back_and_swipe_again">Go back and swipe again</string>
+    <string name="_12">12</string>
+    <string name="months">months</string>
+    <string name="boost_me">Boost me</string>
+    <string name="or">or</string>
+    <string name="out_of_boosts">Out of Boosts!</string>
+    <string name="be_a_top_profile_in_your_area_for_30_minutes_to_get_more_matches">Be a top profile in your area for 30 minutes to get more matches.</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="stay_signed_in">Stay signed in</string>
+    <string name="need_help">Need help?</string>
 
 </resources>

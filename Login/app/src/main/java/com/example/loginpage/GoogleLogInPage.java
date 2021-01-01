@@ -18,7 +18,7 @@ public class GoogleLogInPage extends AppCompatActivity {
     }
 
     private void intilizationandListner() {
-        btnGoogle = findViewById(R.id.btnGoogleuser);
+        btnGoogle = findViewById(R.id.btnSignInGoogle);
         btnGoogle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
