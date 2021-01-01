@@ -49,6 +49,65 @@
     <string name="signin_to_contiue_gmail">Signin to contiue Gmail</string>
     <string name="btnContnuegoogle">CONTINUE</string>
     <string name="enter_user_name_Google">Enter User Name</string>
+    <string name="log_in">LOG IN</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="what_s_your_email">whats your email?</string>
+    <string name="dont_lose_access_to_your_account_verify_your_email">Dont lose access to your account, verify your email</string>
+    <string name="conitnue_1">CONITNUE</string>
+    <string name="be_yourself">Be Yourself.</string>
+    <string name="show_my_orientation_on_my_profile">Show my Orientation on my profile</string>
+    <string name="asexual">Asexual</string>
+    <string name="more">MORE</string>
+    <string name="lesbian">Lesbian</string>
+    <string name="gay">Gay</string>
+    <string name="straight">Straight</string>
+    <string name="my_sexual_orientation_is">My sexual orientation is</string>
+    <string name="make_sure_your">make sure your photoes , age and everything is correct</string>
+    <string name="be_true">Be True</string>
+    <string name="never_make_trouble">Never make trouble</string>
+    <string name="play_it_cool">Play it Cool</string>
+    <string name="make_sure_your_photoes_age_and_everything_is_correct">make sure your photoes , age and everything is correct</string>
+    <string name="please_follow_these_house_rules">Please follow these House Rules.</string>
+    <string name="welcome_to_tinder">Welcome To Tinder</string>
+    <string name="stay_safe">Stay Safe</string>
+    <string name="dont_be_fake">Dont be fake</string>
+    <string name="info_1">Let everyone know what you\'re passionate about by addign it to your profile.</string>
+    <string name="board_games">Board Games</string>
+    <string name="ludo">Ludo</string>
+    <string name="art">Art</string>
+    <string name="athlete">Athlete</string>
+    <string name="movies">Movies</string>
+    <string name="road_trips">Road Trips</string>
+    <string name="karaoke">Karaoke</string>
+    <string name="grab_a_drink">Grab a Drink</string>
+    <string name="dog_lover">Dog Lover</string>
+    <string name="hiking">Hiking</string>
+    <string name="k_pop">K-Pop</string>
+    <string name="yoga">Yoga</string>
+    <string name="house_parties">House parties</string>
+    <string name="sneakers">Sneakers</string>
+    <string name="politics">Politics</string>
+    <string name="climbing">Climbing</string>
+    <string name="working_out">Working Out</string>
+    <string name="vegetarian">Vegetarian</string>
+    <string name="cricket">Cricket</string>
+
+    <string name="reading_books1">Reading Books</string>
+    <string name="swimming">Swimming</string>
+    <string name="chess">Chess</string>
+    <string name="passions">Passions</string>
+    <string name="add_photoes">Add Photoes</string>
+    <string name="add_atleast_two_photoes_to_continue">Add Atleast Two Photoes to continue</string>
+    <string name="i_am_a">I am a</string>
+    <string name="women">WOMEN</string>
+    <string name="men">MEN</string>
+
+    <string name="my_school_is">My School is</string>
+    <string name="this_is_how_intro">This is how it will appear on Tinder and you will not be able to change it</string>
+    <string name="school_name">School Name</string>
+    <string name="or">Or</string>
+    <string name="this_is_how_it_w">This is how it will appear on tinder and you will not be able to edit it</string>
+    <string name="enter_your_name">Enter Your name</string>
 
 
 </resources>

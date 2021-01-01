@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginPage">
-        <activity android:name=".wlcmtotinder"></activity>
+        <activity android:name=".AddPhotosPage"></activity>
+        <activity android:name=".PassionPage" />
+        <activity android:name=".ScoolName" />
+        <activity android:name=".Sexual_Orientation_Page" />
+        <activity android:name=".GenderPage_Intro" />
+        <activity android:name=".Birthday_Page" />
+        <activity android:name=".My_firstname_intro_page" />
+        <activity android:name=".TermAndCondition" />
+        <activity android:name=".wlcmtotinder" />
         <activity android:name=".GoogleLogInPage" />
         <activity android:name=".FacebookLogin" />
         <activity android:name=".MobileNumberPage" />

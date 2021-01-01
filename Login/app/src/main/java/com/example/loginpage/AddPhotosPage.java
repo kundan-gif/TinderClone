@@ -7,22 +7,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class wlcmtotinder extends AppCompatActivity {
-    private Button btnGoogleContinue;
+public class AddPhotosPage extends AppCompatActivity {
+    private Button btnPassionsIntro;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_wlcmtotinder);
+        setContentView(R.layout.activity_add_photos_page);
         initilizationAndListner();
     }
-
     private void initilizationAndListner() {
-        btnGoogleContinue = findViewById(R.id.btnGoogle);
-        btnGoogleContinue.setOnClickListener(new View.OnClickListener() {
+        btnPassionsIntro = findViewById(R.id.btnContinueAddPhotoes);
+        btnPassionsIntro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(wlcmtotinder.this , TermAndCondition.class);
+                Intent intent = new Intent(AddPhotosPage.this, homepage.class);
                 startActivity(intent);
             }
         });

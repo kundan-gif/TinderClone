@@ -22,7 +22,7 @@ public class GoogleLogInPage extends AppCompatActivity {
         btnGoogle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(GoogleLogInPage.this , homepage.class);
+                Intent intent = new Intent(GoogleLogInPage.this , wlcmtotinder.class);
                 startActivity(intent);
             }
         });
