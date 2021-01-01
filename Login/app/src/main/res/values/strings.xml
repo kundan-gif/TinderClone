@@ -48,7 +48,6 @@
     <string name="in_91">IN +91</string>
     <string name="signin_to_contiue_gmail">Sign in to continue to Gmail</string>
     <string name="btnContnuegoogle">CONTINUE</string>
-    <string name="enter_user_name_Google">Enter User Name</string>
     <string name="log_in">LOG IN</string>
     <string name="enter_password">Enter Password</string>
     <string name="what_s_your_email">whats your email?</string>
@@ -105,7 +104,6 @@
     <string name="my_school_is">My School is</string>
     <string name="this_is_how_intro">This is how it will appear on Tinder and you will not be able to change it</string>
     <string name="school_name">School Name</string>
-    <string name="or">Or</string>
     <string name="this_is_how_it_w">This is how it will appear on tinder and you will not be able to edit it</string>
     <string name="enter_your_name">Enter Your name</string>
     <string name="enter_user_name_Google">Email or user name</string>

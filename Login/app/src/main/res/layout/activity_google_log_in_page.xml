@@ -27,20 +27,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <Button
-        android:id="@+id/btnGoogleuser"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/dp_20"
-        android:background="@drawable/rect_btn_google"
-        android:drawablePadding="10dp"
-        android:padding="10dp"
-        android:text="@string/log_in"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
-        app:layout_constraintVertical_bias="0.217" />
+
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         app:layout_constraintTop_toBottomOf="@+id/tvSignIn"
@@ -134,17 +121,5 @@
     </androidx.cardview.widget.CardView>
 
 
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="176dp"
-        android:paddingStart="100dp"
-        android:paddingEnd="100dp"
-        android:hint="@string/enter_password"
-        android:inputType="textPassword"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

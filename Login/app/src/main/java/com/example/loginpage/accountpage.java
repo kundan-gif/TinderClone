@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 public class accountpage extends AppCompatActivity {
@@ -12,6 +13,7 @@ public class accountpage extends AppCompatActivity {
     private ImageButton mBtnLikes;
     private ImageButton mBtnMessage;
     private ImageButton mBtnAccount;
+    private Button mBtnTinderPlus;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +26,7 @@ public class accountpage extends AppCompatActivity {
         mBtnLikes=findViewById(R.id.likes);
         mBtnMessage=findViewById(R.id.messages);
         mBtnAccount=findViewById(R.id.account);
+        mBtnTinderPlus=findViewById(R.id.btnTinderPlus);
 
         mBtnHome.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,6 +46,13 @@ public class accountpage extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(accountpage.this,likespage.class);
+                startActivity(intent);
+            }
+        });
+        mBtnTinderPlus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(accountpage.this,TinderPlus.class);
                 startActivity(intent);
             }
         });
